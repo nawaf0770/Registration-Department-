@@ -1,0 +1,296 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all .2s ease-in;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+
+}
+
+.header {
+  padding: 2rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+
+}
+
+.header .logo {
+  font-size: 2.5rem;
+  color: black;
+
+}
+
+.header .logo i {
+
+  color: green;
+}
+
+.header .navbar a {
+  font-size: 1.7rem;
+  color: rgb(0, 0, 0);
+  margin-left: 2rem;
+}
+
+.header .navbar a :hover {
+
+  color: lawngreen;
+  background-color: lawngreen;
+}
+
+
+
+.pationt {
+
+  width: calc(75% / 3);
+  text-align: center;
+  background-color: #ffffff;
+  margin: 13px 17.9px;
+  padding: 17px 0;
+  border-radius: 25px;
+  box-shadow: 0 7px 25px rgb(0 0 0 / 26%);
+}
+
+
+
+#dignosis-for-pationt {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #eeeeee6b;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 13%;
+  position: absolute;
+  top: -225px;
+  left: 16%;
+  transform: translateY(50%);
+}
+
+#pationt-service {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #eeeeee6b;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 13%;
+  position: absolute;
+  top: 0px;
+  left: 16%;
+  transform: translateY(50%);
+}
+
+#dignosis-for-pationt>form,
+#pationt-service>form {
+  width: 77%;
+}
+
+#dignosis-for-pationt>form>div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 98%;
+  margin: 10px 8px;
+}
+
+#pationt-service>form>div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  width: 98%;
+  margin: 10px 8px;
+}
+
+
+#dignosis-for-pationt>form>div>input,
+#pationt-service>form>div>input {
+  text-align: center;
+  border: none;
+  border-radius: 5%;
+  width: calc(92%/3);
+}
+
+#dignosis-for-pationt>form>div>textarea,
+#pationt-service>form>div>textarea {
+  text-align: center;
+  border: none;
+  border-radius: 5%;
+  width: calc(92%/2);
+}
+
+#with-div {
+  position: absolute;
+  top: -30%;
+  width: 100%;
+  display: none;
+  padding: 100%;
+  background-color: #000000bd;
+
+}
+
+
+
+
+
+.back-img {
+
+  width: 100%;
+  padding: 15% 0;
+  position: absolute;
+  top: 71px;
+  left: 0px;
+}
+
+.all-patiot {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.pos {
+  position: absolute;
+  top: 20%;
+
+
+}
+
+.pationt>div>img {
+  height: 147px;
+  margin: 0 7px;
+  border-radius: 36px;
+  width: 25%;
+  height: 26%;
+  margin-left: 20px;
+}
+
+.pationt {
+  width: calc(75% / 3);
+  text-align: center;
+  background-color: #ffffff;
+  margin: 13px 17.9px;
+  padding: 17px 0;
+  border-radius: 25px;
+  box-shadow: 0 7px 25px rgb(0 0 0 / 26%);
+}
+
+.pationt>div>p {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  margin: 10px 17.9px;
+  padding: 17px 0;
+  border-radius: 35px;
+  text-align: left;
+}
+
+.pationt> :first-child {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pationt> :last-child {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 7px 0;
+}
+
+.pationt>div>button {
+  padding: 12px 12px;
+  border: none;
+  border-radius: 15px;
+  background-color: #aed2cb;
+  box-shadow: 0 7px 25px rgb(0 0 0 / 25%);
+}
+
+span {
+  font-size: 16px;
+
+}
+
+.dignosis- {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  border-right: 1px solid #9e9e9e;
+  border-left: 1px solid #9e9e9e;
+  width: 67%;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.dignosis->:first-child {
+  margin-right: 30px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+.tex {
+  border: none;
+  background-color: #eee;
+  text-align: center;
+  padding: 2px;
+  margin: 4px 4px;
+  border-radius: 10px;
+
+  height: 24px;
+}
+
+.radi {
+  margin-left: 130px;
+}
+
+.for-checked {
+  text-align: right;
+}
+
+
+.for-checked>input {
+  margin: 4px 4px;
+}
+
+#sub {
+  border: none;
+  padding: 2px 9px;
+  margin-top: 9px;
+  border-radius: 15px;
+}
