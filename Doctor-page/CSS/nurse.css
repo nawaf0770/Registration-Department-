@@ -1,0 +1,111 @@
+img {
+    height: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.section-doct-nurs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    height: 2000px;
+    align-content: flex-start;
+    background: #607d8b;
+}
+
+.doct-nurs {
+    border-radius: 50%;
+    /* width: calc(53%/3); */
+    /* height: 226px; */
+    /* padding: 39px 5%; */
+    /* background-color: white; */
+    /* text-align: center; */
+    /* margin: 54px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* aspect-ratio: 1/1; */
+    border-radius: 50%;
+    width: calc(53%/3);
+    height: 226px;
+    padding: 39px 5%;
+    background-color: white;
+    text-align: center;
+    margin: 54px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    aspect-ratio: 1/1;
+    width: calc(70% / 3);
+    text-align: center;
+    /* background-color: #eceae42b; */
+    margin: 13px 17.9px;
+    padding: 17px 0;
+    border-radius: 25px;
+    box-shadow: 0 7px 25px rgb(0 0 0 / 26%);
+}
+
+.doct-nurs>button {
+    padding: 5px 19px;
+    border-radius: 12%;
+    border: none;
+    background: linear-gradient(105deg, #08b50e 23%, #0b29cbf0 100%);
+}
+
+
+
+.header{
+    padding: 2rem 9%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,.1);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(255, 255, 255);
+    height: 3%;
+  
+  }
+  .header .logo{
+    font-size: 2.5rem;
+    color: black;
+  font-size: 20px;
+  font-weight: 550;
+  text-decoration: none;
+  }
+  .header .logo i{
+   
+    color: green;
+  }
+  .header .navbar a{
+    font-size: 1.7rem;
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .header .navbar a :hover{ 
+  
+    color: lawngreen;
+    background-color: lawngreen;
+  }
+  span
+  {
+    font-size: 14px;
+  }
+  .pationt:hover{
+    background-color: rgb(181, 189, 186);
+  }
+  
+  body{
+    background-color: #d5f4da70;
+  }
