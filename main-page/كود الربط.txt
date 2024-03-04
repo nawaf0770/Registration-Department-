@@ -1,0 +1,31 @@
+$host  ="localhost";
+$user  ="root";
+$password ="";
+$dbName="patient nut care sys";
+$conn=mysqli_connect($host,$user,$password,$dbName);
+if(isset($conn))
+{ echo "";
+}
+else{
+echo "";
+}
+$user=$_POST['user_name'];
+$pass=$_POST['password'];
+$submit=$_POST['send'];
+//$query="INSERT INTO patient(Fname,Lname,PSex,PAge,Pphone) VALUE('$PFname','$PLname','$PSex','$PAge','$Pphone')";
+if($submit){
+$query="INSERT INTO users(U_Name,Password) VALUE('$user','$pass')";
+$result=mysqli_query($conn,$query);
+  // header('location: pagephp.php');
+echo "<p style='color.green'>" ."" ."</p>";}
+else{
+    echo "<p style='color.red'>" ."" ."</p>";
+}
+/*elseif($_POST['user_name']='nawal' && $_POST['$password']='12345'){
+    header('Location: List-of-pationt.html)';
+
+}*/
+
+
+
+?>

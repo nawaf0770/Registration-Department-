@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+button {
+  margin: 250px;
+}
+.with-div {
+  position: absolute;
+  top: 1px;
+  width: 100%;
+  display: none;
+  padding: 100%;
+  background-color: #000000bd;
+}
+#hid {
+  /* position: absolute; */
+  display: none;
+  padding: 10px 5px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  background-color: #607d8b;
+}
+.imgg {
+  height: 70px;
+  padding-top: 19px;
+}
+.inputt {
+  border: none;
+  text-align: center;
+  width: 70%;
+}
+.section-log > :last-child {
+  border: none;
+  text-align: center;
+  width: 47%;
+  padding: 3px;
+  border-radius: 20px;
+  /* background-image: linear-gradient( 105deg, #00bcd4 15%, #e91e63 99%, transparent 1% ); */
+  background-color: #eee;
+}
+.section-log {
+  border-right: 1px solid black;
+  padding: 0 30px;
+}
+.aside-log {
+  padding: 0 30px;
+}
+body {
+  height: 400vh;
+}
+::-webkit-scrollbar {
+  background-color: rgba(255, 235, 205, 0);
+}
+::-webkit-scrollbar :hover {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #dddddd85;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(21, 0, 78, 0.589);
+}
